@@ -1,0 +1,11 @@
+1. Creating virtual Environment : 
+conda create -p venv python==3.12 -y 
+
+2. Activating Virtual Environment : 
+conda activate venv/
+
+3. Create a requirements.txt file : 
+pip install -r requirements.txt
+
+4. create a ipynbkernel : 
+pip install ipykernel (we do it seperatly because on the deployment we dont need it)
